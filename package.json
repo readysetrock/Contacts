@@ -1,0 +1,37 @@
+{
+  "name": "contacts",
+  "version": "0.0.1",
+  "description": "Contacts App",
+  "main": "contacts/public/index.html",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1",
+    "mongojs": "^0.18.1",
+    "ejs": "0.8.x"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "5.0.0"
+  },
+  "modulus": {
+     "mongodb": "//<username>:<password>@apollo.modulusmongo.net:27017/hAn2odom"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/readysetrock.git"
+  },
+  "author": "TT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/readysetrock/issues"
+  },
+  "homepage": "https://github.com/github.com/readysetrock#readme",
+  "keywords": [
+    "CRUD",
+    "RESTful"
+  ]
+}
