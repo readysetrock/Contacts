@@ -2,7 +2,7 @@
   "name": "contacts",
   "version": "0.0.1",
   "description": "Contacts App",
-  "main": "contacts/public/index.html",
+  "main": "contacts/server.js",
   "dependencies": {
     "body-parser": "^1.10.2",
     "express": "^4.11.1",
