@@ -23,9 +23,6 @@ app.post('/contactlist', function (req, res) {
     res.json(doc);
   });
 
-
- mongodb:'//<readysetrock>:<14171417>@apollo.modulusmongo.net:27017/hAn2odom'
-
 app.delete('/contactlist/:id', function (req, res) {
   var id = req.params.id;
   console.log(id);
@@ -52,12 +49,15 @@ app.put('/contactlist/:id', function (req, res) {
       res.json(doc);
     }
   );
-});
+})
 
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.end('Hello World\n');
 }).listen(process.env.PORT);
+
+console.log('Server running on port ' + process.env.PORT);
+
 
 
