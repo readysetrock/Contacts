@@ -3,6 +3,7 @@ var app = express();
 var mongojs = require('mongojs');
 var db = mongojs('contactlist', ['contactlist']);
 var bodyParser = require('body-parser');
+var http = require('http');
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
@@ -52,6 +53,11 @@ app.put('/contactlist/:id', function (req, res) {
     }
   );
 });
-app.listen(process.env.PORT);
+
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(process.env.PORT);
 
 

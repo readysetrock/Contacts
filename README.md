@@ -1,4 +1,5 @@
 <div class="container">
+	<img src="images/contacts.png" alt="Smiley face" height="231" width="624">
 	<h3>Simple MEAN Stack Contacts App</h3>
 		<p>After download run npm install, Node and MongoDB will need to be installed locally to run the app. </p>
 	<ul>
