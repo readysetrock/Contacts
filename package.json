@@ -2,7 +2,7 @@
   "name": "contacts",
   "version": "0.0.1",
   "description": "Contacts App",
-  "main": "contacts/server.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.10.2",
     "express": "^4.11.1",
@@ -14,7 +14,7 @@
     "node": "5.0.0"
   },
   "modulus": {
-     "mongodb": "//<username>:<password>@apollo.modulusmongo.net:27017/hAn2odom"
+     "mongodb": "//<readysetrock>:<password>@apollo.modulusmongo.net:27017/hAn2odom"
     },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
